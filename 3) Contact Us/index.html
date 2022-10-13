@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <h1>Formulaire</h1>
+    <h2>Contactez-nous</h2>
+
+    <form action="" method="post">
+        
+        <!--Sexe-->
+        <label for="Sexe"> Sexe :</label>
+        <input type="radio" name="Sexe" value="Femme" /><label>Femme</label>
+        <input type="radio" name="Sexe" value="Homme" /><label>Homme</label>
+        <br><br>
+        
+        <!--Nom Prénom-->
+        <label for="Nom">Nom :</label>
+        <input type="text" />
+        <label for="Prénom">Prénom :</label>
+        <input type="text" />
+        <br> <br>
+
+        <!--Pseudo-->
+        <label for="Pseudo">Pseudo :</label>
+        <input type="text" />
+        <br><br>
+
+        <!--Âge-->
+        <label for="Âge">Âge :</label>
+        <input type="number" />
+        <br><br>
+
+        <!--Mot de Passe-->
+        <label for="Mot de Passe">Mot de Passe :</label>
+        <input type="text" />
+        <br> <br>
+
+        <!--Commentaire-->
+        <label>Commentaire :</label>
+        <br>
+        <textarea name="Commentaire" cols="50" rows="10"></textarea>
+        <br><br>
+
+        <!--Pays-->
+        <label for="Pays">Pays :</label>
+        <select>
+            <option value="France">France</option>
+            <option value="Espagne">Espagne</option>
+        </select>
+        <br><br>
+
+        <!--Email-->
+        <label for="email">Souhaitez-vous être contacté par email : </label>
+        <input type="radio" name="Oui" value="Oui" /><label>Oui</label>
+        <input type="radio" name="Non" value="Non" /><label>Non</label>
+        <br>
+        <label for="Email">Si oui, Email :</label>
+        <input type="text"/>
+        <br>
+
+        <!--Bouton Validation-->
+        <input type="submit" value="Valider">
+
+    </form>
+</body>
+
+</html>
